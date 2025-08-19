@@ -12,9 +12,8 @@ These should be at the top level of your repository:
   called "License", with a really brief statement saying that Spack is
   dual-licensed and what that means. It should also have the SPDX license
   identifier and the LLNL release number for Spack (see below).
-* `COPYRIGHT` - Used because Spack is dual-licensed, and if `COPYRIGHT` is not
-  present, GitHub's "License" link will point to one of the top two `LICENSE-*`
-  files. `COPYRIGHT` has:
+* `COPYRIGHT` - Used because Spack is dual-licensed, just to make things clear.
+  `COPYRIGHT` has:
     * The same short text that's in the `README.md` so that
       people know Spack is dual-licensed.
     * A statement that copyrights are retained by contributors.
@@ -30,8 +29,7 @@ These should be at the top level of your repository:
 In files in the repository, you should have a short header like this:
 
 ```python
-# Copyright 2013-2021 Lawrence Livermore National Security, LLC and other
-# Spack Project Developers. See the top-level COPYRIGHT file for details.
+# Copyright Spack Project Developers. See COPYRIGHT file for details.
 #
 # SPDX-License-Identifier: (Apache-2.0 OR MIT)
 ```
@@ -42,7 +40,7 @@ etc.
 
 This header lets people know the file is part of Spack and identifies the
 license concisely with an SPDX identifier. It also makes it clear that the
-copyright is not just LLNS's -- copyrights are retained by developers.
+copyright is retained by developers.
 
 ## License
 
